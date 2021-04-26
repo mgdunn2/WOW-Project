@@ -42,8 +42,13 @@ def fast_text(text, delay = quick):
 def storyline_paragraph(text):
     for line in text.split("\n"):
         print(line, flush = True)
+<<<<<<< HEAD
         time.sleep(step)
     time.sleep(dia)
+=======
+        time.sleep(dia)
+    time.sleep(quick)
+>>>>>>> ascii ready images into game
 
 def starting_question(ETS_user):
     start_esaping_sanctum = input(f"\n{ETS_user.user_name}, would you like to Start? (Y/N):\n>>>")
@@ -57,7 +62,11 @@ def starting_question(ETS_user):
         starting_question(ETS_user)
 
 def header():
+<<<<<<< HEAD
     fast_text("  \n\t\t   .... ............... ..........................\n\
+=======
+    storyline_paragraph("  \n\t\t   .... ............... ..........................\n\
+>>>>>>> ascii ready images into game
   \t\t   .. ......................... .......... .......\n\
   \t\t   ...... ..... ......... ........................\n\
   \t\t   .........  Escaping Toro Sanctum...... ........\n\
@@ -69,4 +78,8 @@ def header():
 def Viewfile(file_name):
     with open(file_name,'r') as viewFileOpen:
         data = viewFileOpen.read()
+<<<<<<< HEAD
     fast_text(data, 0.00001)
+=======
+    fast_text(data, 0.00001)
+>>>>>>> ascii ready images into game
